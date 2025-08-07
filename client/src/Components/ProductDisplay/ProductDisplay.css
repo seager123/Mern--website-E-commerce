@@ -1,0 +1,132 @@
+.productdisplay-right-star img {
+  width: 20px; /* ya 16px jo bhi fit lage */
+  height: 20px;
+  margin-right: 4px;
+}
+.productdisplay {
+  display: flex;
+  gap: 30px;
+  padding: 40px;
+}
+
+.productdisplay-left {
+  display: flex;
+  gap: 10px;
+}
+
+.productdisplay-img-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.productdisplay-img-list img {
+  width: 80px;
+  height: 100px;
+  object-fit: cover;
+  cursor: pointer;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.productdisplay-img {
+  flex: 1;
+}
+
+.productdisplay-main-img {
+  width: 400px;
+  height: 500px;
+  object-fit: cover;
+}
+
+.productdisplay-right {
+  flex: 1;
+}
+
+.productdisplay-right-star {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin: 10px 0;
+}
+
+.productdisplay-right-star img {
+  width: 20px;
+  height: 20px;
+}
+ 
+.productdisplay-right{
+  margin:0px 70px;
+  display:flex;
+  flex-direction: column;
+}
+.productdisplay-right h1{
+  color:#3d3d3d;
+  font-size:40px;
+  font-weight:700;
+
+}
+.productdisplay-right-star{
+  display:flex;
+  align-items: center;
+  margin-top: 13px;
+ gap:5px;
+ color:#1c1c1c;
+ font-size:16px;
+}
+.productdisplay-right-prices{
+  display:flex;
+  margin: 40px 0px;
+  gap:30px;
+  font-size:24px;
+  font-weight:700;
+}
+.productdisplay-right-price-old{
+  color:#818181;
+  text-decoration: line-through;
+}
+
+.productdisplay-right-price-new{
+  color:#ff4141;
+}
+.productdisplay-right-size h1{
+  margin-top:55px;
+  color:#656565;
+  font-size: 20px;
+  font-weight:600;
+}
+.productdisplay-right-size-options{
+  display:flex;
+  margin:30px 0px;
+  gap:20px;
+}
+.productdisplay-right-size-options div{
+  padding:18px 24px;
+  background:#fbfbfb;
+  border:1px solid #ebebeb;
+  border-radius: 3px;
+  cursor:pointer;
+}
+.add-to-cart-btn{
+  padding:20px 40px;
+  width:200px;
+  font-size:16px;
+  font-weight: 600;
+  color:white;
+  background:#ff4141;
+  margin-bottom: 40px;
+  border:none;
+  outline:none;
+  cursor:pointer;
+}
+.productdisplay-right-category{
+  margin-top:10px;
+
+}
+.productdisplay-right-category span{
+  font-weight:600;
+}
+.selected-size {
+  border: 2px solid black;
+  background-color: #f2f2f2;
+}

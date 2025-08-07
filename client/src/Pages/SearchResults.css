@@ -1,0 +1,9 @@
+.search-results-page {
+  padding: 40px;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 4fr));
+  gap: 25px;
+}

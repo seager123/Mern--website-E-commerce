@@ -1,0 +1,55 @@
+.hero {
+    height: 90vh;
+    background: url('../../Assets/hero_image.jpg') no-repeat center center/cover; /* इमेज को बैकग्राउंड में सेट किया */
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; /* टेक्स्ट को लेफ्ट में रखने के लिए */
+    padding-left: 100px;
+    color: white; /* टेक्स्ट को विजिबल बनाने के लिए */
+    size:cover;
+}
+
+/* Left Side (Text Area) */
+.hero-left {
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  color:black;
+  font-size: 30px;;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.hero-hand-icon {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 40px;
+}
+
+.hero-hand-icon img {
+    width: 70px;
+}
+.hero p{
+    font-size: 50px;
+    color: black;
+}
+
+
+.hero-latest-btn button {
+  background-color: #ff5c5c;
+  color: white;
+  border: none;
+  padding: 12px 30px;
+  border-radius: 25px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.hero-latest-btn button:hover {
+  background-color: #e34e4e;
+}
+

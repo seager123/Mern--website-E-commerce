@@ -1,0 +1,44 @@
+/* Center-align all content in the root App component */
+.App {
+  text-align: center;
+}
+
+/* Size of the React logo image inside .App */
+.App-logo {
+  height: 40vmin;          /* 40% of the viewport’s smaller dimension */
+  pointer-events: none;    /* Ignore mouse/touch events on the logo */
+}
+
+/* Only run the spin animation if the user does NOT prefer reduced motion */
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear; /* Spin forever, 20-second loop */
+  }
+}
+
+/* Full-page header area */
+.App-header {
+  background-color: #282c34;   /* Dark gray background */
+  min-height: 100vh;           /* Fill full viewport height */
+  display: flex;               /* Flexbox layout */
+  flex-direction: column;      /* Stack children vertically */
+  align-items: center;         /* Center horizontally */
+  justify-content: center;     /* Center vertically */
+  font-size: calc(10px + 2vmin); /* Responsive text size */
+  color: white;                /* White text color */
+}
+
+/* Styling for links inside the header */
+.App-link {
+  color: #61dafb; /* React-blue link color */
+}
+
+/* Keyframes for the spinning React logo */
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);   /* Start at 0° */
+  }
+  to {
+    transform: rotate(360deg); /* End at 360°, then loop */
+  }
+}
