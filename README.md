@@ -1,6 +1,6 @@
 # 🛍️ MERN Stack E-Commerce Website
 
-A complete full-stack E-Commerce Website built using the MERN stack (MongoDB, Express.js, React, Node.js).  
+A complete Mern -stack E-Commerce Website built using the MERN stack (MongoDB, Express.js, React, Node.js).  
 This project showcases a modern shopping platform with cart functionality, user authentication, product filtering, and admin features.
 
 ---
@@ -14,7 +14,7 @@ This project showcases a modern shopping platform with cart functionality, user 
 - 🛍️ **Product Listing Page**
 - 🧾 **Filter Products by Category (Men, Women, Kids)**
 - 🛒 **Add to Cart + Update Quantity**
-- 💳 **Cart Page with Checkout Option**
+- 💳 **Cart Page
 - 📱 **Responsive UI**
 - 🔁 **Routing using React Router**
 - 🧠 **State Management with Context API / Redux Toolkit**
