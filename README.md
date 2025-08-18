@@ -17,7 +17,7 @@ I have built a MERN Stack E-Commerce Website. The frontend is developed using Re
 - 📱 **Responsive UI**
 - 🔁 **Routing using React Router**
 - 🧠 **State Management with Context API / Redux Toolkit**
-- ⚙️ **Backend APIs for Auth and Products (Node + Express)**
+⚙️ Backend APIs for Authentication (User & Admin Login/Register) using Node.js + Express.js + MongoDB
 - 🗂️ **MongoDB as Database**
 
 --- 🔐 User Login & Register (connected to backend with validation)
